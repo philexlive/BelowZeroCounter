@@ -1,0 +1,52 @@
+[
+  {
+    "id": "craft1",
+    "category": "compound",
+    "materials": {
+      "craft2": 1,
+      "craft3": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "craft2",
+    "category": "compound",
+    "materials": {
+      "craft1": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "craft3",
+    "category": "compound",
+    "materials": {
+      "craft4": 1,
+      "craft5": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "craft5",
+    "category": "natural",
+    "materials": {
+      "craft6": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "craft10",
+    "category": "natural",
+    "materials": {
+      "craft11": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "craft11",
+    "category": "natural",
+    "materials": {
+      "craft10": 1
+    },
+    "quantity": 1
+  }
+]
