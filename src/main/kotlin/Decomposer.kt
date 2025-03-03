@@ -1,67 +1,50 @@
 package org.example
 
 
-abstract class Decomposer<K, V, out R> {
-    private val branch: Branch<K> by lazy { Branch() }
+abstract class Decomposer<K, in V, out R> {
+    protected val branch: Branch<K> by lazy { Branch() }
 
-    fun decompose(keys: Collection<K>?): Set<R> {
-        val result = mutableSetOf<R>()
+    protected fun decompose(refs: Collection<K>?): Set<K> {
+        val temp = mutableSetOf<K>()
 
         // Iterate craft references if not null
-        keys?.forEach { key ->
-            // Get craft from data source by ref.key representing craft's id
-            val item = getItemFromSource(key)
+        refs?.forEach { ref ->
 
-            // Craft must be not null. That's because if craft is null it considered "natural" resource.
             // And there should be no copies in the branch, to prevent infinite recursion caused by "reversive" crafts.
             //
             // For example "titanium" crafts "titanium ingot", but "titanium ingot" crafts "titanium".
             //
-            // If there is no copies, it's added to the branch as last.
-            if (item != null && branch.push(key)) {
-                val refs = getItemReferences(item)
-                result addAll decompose(refs)
-            }
-
-            // If the craft is null, or it is already in the current branch it adds current craft to the result
-            else {
-                // Checks if it added to branch and there is no copies in again, if yes, we just "check" it
-                // and adds to the result map.
-                //
-                // Else we just use current ref as the result.
-
-                val last = if (branch.contains(key)) {
-                    branch.check()
-                } else {
-                    key
-                }
-
-                if (last != null) {
-                    result add onItemResultFromKey(last)
-                }
-
-                println("$branch")
+            // If there is no copies, it's added to the branch as last
+            if (branch.push(ref)) {
+                val subRefs = onFetch(ref)
+                temp addAll decompose(subRefs)
             }
 
             // Pops branch stack - we finished interaction with current resource.
-            branch.pop()
-        }
+        } ?: onUpdate(branch.check())
 
-        return result
+        onFinal(branch.pop())
+
+        return temp
     }
 
-    abstract fun getItemFromSource(key: K): V?
+    protected abstract fun onFetch(key: K): Collection<K>?
 
-    abstract fun getItemReferences(item: V): Collection<K>?
+    protected abstract fun onUpdate(key: K)
 
-    abstract fun onItemResultFromKey(key: K): R
+    protected open fun onFinal(key: K?) = Unit
+
+    abstract fun onGetResult(value: V): R
+
 
     /**
      * Saves the state of past craft
      * */
-    private data class Branch<T>(
-        private val branch: ArrayDeque<T> = ArrayDeque()
-    ) {
+    class Branch<T>(private val branch: ArrayDeque<T> = ArrayDeque()) {
+        fun getBranch(): ArrayDeque<T> {
+            return branch
+        }
+
         /**
          * Add key to the branch as last if it has no this key yet.
          * */
@@ -89,13 +72,8 @@ abstract class Decomposer<K, V, out R> {
         /**
          * Gets last key from the branch without popping
          * */
-        fun check(): T? {
-            val result = if (branch.isNotEmpty()) {
-                branch.last()
-            } else {
-                null
-            }
-            return result
+        fun check(): T {
+            return branch.last()
         }
 
         fun contains(value: T): Boolean {
@@ -107,8 +85,9 @@ abstract class Decomposer<K, V, out R> {
             return branch.joinToString(separator = " <- ")
         }
     }
+
+
+    private infix fun <T> MutableSet<T>.add(value: T) = this.add(value)
+
+    private infix fun <T> MutableSet<T>.addAll(value: Collection<T>) = this.addAll(value)
 }
-
-private infix fun <T> MutableSet<T>.add(value: T) = this.add(value)
-
-private infix fun <T> MutableSet<T>.addAll(value: Collection<T>) = this.addAll(value)
