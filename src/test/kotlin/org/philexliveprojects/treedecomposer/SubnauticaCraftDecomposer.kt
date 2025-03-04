@@ -1,12 +1,18 @@
-package org.example
+package org.philexliveprojects.treedecomposer
 
+import org.philexliveprojects.treedecomposer.data.SubnauticaCraftsAssetsRepository
 import kotlin.math.ceil
 
-class SubnauticaCraftsDecomposer(
+
+/* Sample Decomposer implementation */
+
+class SubnauticaCraftDecomposer(
     private val repository: SubnauticaCraftsAssetsRepository
 ) : Decomposer<String, Map<String, Int>, Map<String, Int>>() {
+
     private val result: MutableMap<String, Float> = mutableMapOf()
 
+    // initial data got from onResult to use their quantities in onUpdate
     private lateinit var initialValue: Map<String, Int>
 
     override fun onFetch(key: String): Collection<String>? {
@@ -17,10 +23,11 @@ class SubnauticaCraftsDecomposer(
         var prevKey = branch.getBranch().first()
         var quantity = initialValue[prevKey]?.toFloat() ?: 1.0f
 
+        // Iterate each element in branch getting quantities of craft and its material to multiply them
         branch.getBranch().forEach {
             if (prevKey != it) {
-                val materialQuantity = repository.getSubnauticaCraftById(prevKey)?.materials?.get(it) ?: 1
                 val craftResultQuantity = repository.getSubnauticaCraftById(prevKey)?.quantity ?: 1
+                val materialQuantity = repository.getSubnauticaCraftById(prevKey)?.materials?.get(it) ?: 1
 
                 quantity *= materialQuantity / craftResultQuantity.toFloat()
 
@@ -35,7 +42,7 @@ class SubnauticaCraftsDecomposer(
         }
     }
 
-    override fun onGetResult(value: Map<String, Int>): Map<String, Int> {
+    override fun onResult(value: Map<String, Int>): Map<String, Int> {
         initialValue = value
         decompose(value.keys)
         return result.mapValues { ceil(it.value).toInt() }

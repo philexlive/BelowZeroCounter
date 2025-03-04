@@ -1,4 +1,4 @@
-package org.example
+package org.philexliveprojects.treedecomposer.data
 
 import kotlinx.serialization.Serializable
 

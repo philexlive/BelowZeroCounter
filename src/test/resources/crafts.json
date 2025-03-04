@@ -1,0 +1,1719 @@
+[
+  {
+    "id": "titanium",
+    "category": "basic_materials",
+    "materials": {
+      "metal_salvage": 1
+    },
+    "quantity": 4
+  },
+  {
+    "id": "titanium_ingot",
+    "category": "basic_materials",
+    "materials": {
+      "titanium": 5
+    },
+    "quantity": 1
+  },
+  {
+    "id": "fiber_mesh",
+    "category": "basic_materials",
+    "materials": {
+      "creepvine_sample": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "silicone_rubber",
+    "category": "basic_materials",
+    "materials": {
+      "creepvine_seed_cluster": 1
+    },
+    "quantity": 2
+  },
+  {
+    "id": "glass",
+    "category": "basic_materials",
+    "materials": {
+      "quartz": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "lubricant",
+    "category": "basic_materials",
+    "materials": {
+      "creepvine_seed_cluster": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "enameled_glass",
+    "category": "basic_materials",
+    "materials": {
+      "glass": 1,
+      "lead": 1,
+      "diamond": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "plasteel_ingot",
+    "category": "basic_materials",
+    "materials": {
+      "titanium_ingot": 1,
+      "lithium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "hydrochloric_acid",
+    "category": "advanced_materials",
+    "materials": {
+      "young_cotton_anemone": 3,
+      "salt_deposit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "benzene",
+    "category": "advanced_materials",
+    "materials": {
+      "flowering_spore": 2,
+      "ribbon_plant": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "synthetic_fibers",
+    "category": "advanced_materials",
+    "materials": {
+      "ruby": 1,
+      "spiral_plant_clipping": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "aerogel",
+    "category": "advanced_materials",
+    "materials": {
+      "gel_sack": 1,
+      "ruby": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "polyaniline",
+    "category": "advanced_materials",
+    "materials": {
+      "gold": 1,
+      "hydrochloric_acid": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "hydraulic_fluid",
+    "category": "advanced_materials",
+    "materials": {
+      "creepvine_seed_cluster": 1,
+      "gel_sack": 4
+    },
+    "quantity": 1
+  },
+  {
+    "id": "antidote",
+    "category": "advanced_materials",
+    "materials": {
+      "fevered_pepper": 1,
+      "frost_vase_plant": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "copper_wire",
+    "category": "electronics",
+    "materials": {
+      "copper_ore": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "battery",
+    "category": "electronics",
+    "materials": {
+      "ribbon_plant": 2,
+      "copper_ore": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "ion_battery",
+    "category": "electronics",
+    "materials": {
+      "ion_cube": 1,
+      "gold": 1,
+      "silver_ore": 1,
+      "lithium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "power_cell",
+    "category": "electronics",
+    "materials": {
+      "battery": 2,
+      "silicone_rubber": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "ion_power_cell",
+    "category": "electronics",
+    "materials": {
+      "ion_battery": 2,
+      "silicone_rubber": 1,
+      "wiring_kit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "computer_chip",
+    "category": "electronics",
+    "materials": {
+      "table_coral_sample": 2,
+      "gold": 1,
+      "copper_wire": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "wiring_kit",
+    "category": "electronics",
+    "materials": {
+      "silver_ore": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "advanced_wiring_kit",
+    "category": "electronics",
+    "materials": {
+      "wiring_kit": 1,
+      "computer_chip": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "reactor_rod",
+    "category": "electronics",
+    "materials": {
+      "uraninite_crystal": 2,
+      "lead": 1,
+      "titanium": 1,
+      "glass": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "parallel_processing_unit",
+    "category": "electronics",
+    "materials": {
+      "gold": 1,
+      "silver_ore": 1,
+      "table_coral_sample": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "test_override_module",
+    "category": "electronics",
+    "materials": {
+      "parallel_processing_unit": 1,
+      "titanium": 1,
+      "lead": 1,
+      "copper_wire": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "spicy_fruid_salad",
+    "category": "food_and_drinks",
+    "materials": {
+      "prestons_plant_leaf": 1,
+      "fevered_pepper": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "filtered_water",
+    "category": "food_and_drinks",
+    "materials": {
+      "bladderfish": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "water_purification_tablet",
+    "category": "food_and_drinks",
+    "materials": {
+      "frost_vase_plant": 1,
+      "salt_deposit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "thermos",
+    "category": "food_and_drinks",
+    "materials": {
+      "titanium": 1,
+      "glass": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "standard_o2_tank",
+    "category": "equipment",
+    "materials": {
+      "titanium": 2,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "high_capacity_o2_tank",
+    "category": "equipment",
+    "materials": {
+      "standard_o2_tank": 1,
+      "glass": 2,
+      "titanium": 4,
+      "silver_ore": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "booster_tank",
+    "category": "equipment",
+    "materials": {
+      "high_capacity_o2_tank": 1,
+      "wiring_kit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "fins",
+    "category": "equipment",
+    "materials": {
+      "silicone_rubber": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "water_filtration_suit",
+    "category": "equipment",
+    "materials": {
+      "synthetic_fibers": 1,
+      "aerogel": 1,
+      "copper_wire": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cold_suit",
+    "category": "equipment",
+    "materials": {
+      "fiber_mesh": 1,
+      "snow_stalker_fur": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cold_suit_gloves",
+    "category": "equipment",
+    "materials": {
+      "fiber_mesh": 1,
+      "snow_stalker_fur": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "cold_suit_helmet",
+    "category": "equipment",
+    "materials": {
+      "fiber_mesh": 1,
+      "snow_stalker_fur": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "first_aid_kit",
+    "category": "equipment",
+    "materials": {
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "rebreather",
+    "category": "equipment",
+    "materials": {
+      "wiring_kit": 1,
+      "fiber_mesh": 1,
+      "silicone_rubber": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "compass",
+    "category": "equipment",
+    "materials": {
+      "copper_wire": 1,
+      "wiring_kit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "pipe",
+    "category": "equipment",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 5
+  },
+  {
+    "id": "floating_air_pump",
+    "category": "equipment",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "headlamp",
+    "category": "equipment",
+    "materials": {
+      "ion_battery": 1,
+      "glass": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "scanner",
+    "category": "tools",
+    "materials": {
+      "battery": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "repair_tool",
+    "category": "tools",
+    "materials": {
+      "silicone_rubber": 1,
+      "crystalline_sulfur": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "flashlight",
+    "category": "tools",
+    "materials": {
+      "battery": 1,
+      "glass": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "survival_knife",
+    "category": "tools",
+    "materials": {
+      "silicone_rubber": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "pathfinder_tool",
+    "category": "tools",
+    "materials": {
+      "creepvine_seed_cluster": 1,
+      "titanium": 1,
+      "battery": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "air_bladder",
+    "category": "tools",
+    "materials": {
+      "silicone_rubber": 1,
+      "bladderfish": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "flare",
+    "category": "tools",
+    "materials": {
+      "crystalline_sulfur": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "pathfinder_tool",
+    "category": "tools",
+    "materials": {
+      "creepvine_seed_cluster": 1,
+      "titanium": 1,
+      "battery": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "habitat_builder",
+    "category": "tools",
+    "materials": {
+      "wiring_kit": 1,
+      "computer_chip": 1,
+      "battery": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "lazer_cutter",
+    "category": "tools",
+    "materials": {
+      "diamond": 2,
+      "battery": 1,
+      "titanium": 1,
+      "crystalline_sulfur": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "light_stick",
+    "category": "tools",
+    "materials": {
+      "battery": 1,
+      "titanium": 1,
+      "glass": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "thumper",
+    "category": "tools",
+    "materials": {
+      "battery": 1,
+      "titanium": 1,
+      "magnetite": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "mineral detector",
+    "category": "tools",
+    "materials": {
+      "battery": 1,
+      "titanium": 1,
+      "copper_wire": 1,
+      "silicone_rubber": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "spy_pengling",
+    "category": "tools",
+    "materials": {
+      "titanium": 2,
+      "wiring_kit": 1,
+      "silicone_rubber": 1,
+      "battery": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "spy_pengling_remote",
+    "category": "tools",
+    "materials": {
+      "titanium": 1,
+      "copper_wire": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "tether_tool",
+    "category": "tools",
+    "materials": {
+      "titanium": 2,
+      "silicone_rubber": 1,
+      "ion_cube": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seaglide",
+    "category": "machines",
+    "materials": {
+      "battery": 1,
+      "lubricant": 1,
+      "copper_wire": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "mobile_vehicle_bay",
+    "category": "machines",
+    "materials": {
+      "titanium_ingot": 1,
+      "lubricant": 1,
+      "computer_chip": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "beacon",
+    "category": "machines",
+    "materials": {
+      "copper_ore": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "waterproof_locker",
+    "category": "machines",
+    "materials": {
+      "titanium": 4
+    },
+    "quantity": 1
+  },
+  {
+    "id": "quantum_locker",
+    "category": "machines",
+    "materials": {
+      "titanium": 2,
+      "advanced_wiring_kit": 1,
+      "ion_cube": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "grav_trap",
+    "category": "machines",
+    "materials": {
+      "battery": 1,
+      "copper_ore": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "snowfox",
+    "category": "machines",
+    "materials": {
+      "magnetite": 2,
+      "battery": 1,
+      "lubricant": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit",
+    "category": "vehicle",
+    "materials": {
+      "plasteel_ingot": 1,
+      "power_cell": 1,
+      "enameled_glass": 1,
+      "computer_chip": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck",
+    "category": "vehicle",
+    "materials": {
+      "titanium_ingot": 1,
+      "advanced_wiring_kit": 1,
+      "glass": 2,
+      "lead": 3,
+      "power_cell": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_aquarium_module",
+    "category": "vehicle",
+    "materials": {
+      "plasteel_ingot": 1,
+      "wiring_kit": 2,
+      "enameled_glass": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_docking_module",
+    "category": "vehicle",
+    "materials": {
+      "plasteel_ingot": 1,
+      "advanced_wiring_kit": 1,
+      "lead": 3
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_fabricator_module",
+    "category": "vehicle",
+    "materials": {
+      "plasteel_ingot": 1,
+      "computer_chip": 1,
+      "lead": 3
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_sleeper_module",
+    "category": "vehicle",
+    "materials": {
+      "plasteel_ingot": 1,
+      "fiber_mesh": 2,
+      "lead": 3
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_storage_module",
+    "category": "vehicle",
+    "materials": {
+      "plasteel_ingot": 1,
+      "wiring_kit": 1,
+      "lead": 3
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_teleportation_module",
+    "category": "vehicle",
+    "materials": {
+      "plasteel_ingot": 1,
+      "advanced_wiring_kit": 1,
+      "aerogel": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_storage_module",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "titanium": 3,
+      "lithium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_depth_module_mk1",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "enameled_glass": 1,
+      "ruby": 3,
+      "synthetic_fibers": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_thermal_reactor",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "polyaniline": 2,
+      "kyanite": 2,
+      "wiring_kit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_jump_upgrade",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "nickel_ore": 2,
+      "crystalline_sulfur": 3,
+      "titanium": 5,
+      "lithium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_propulsion_cannon",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "computer_chip": 1,
+      "titanium_ingot": 5,
+      "magnetite": 2,
+      "lithium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_grappling_arm",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "advanced_wiring_kit": 1,
+      "benzene": 1,
+      "titanium": 2,
+      "lithium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_drill_arm",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "titanium": 5,
+      "lithium": 1,
+      "diamond": 4
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_torpedo_arm",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "titanium": 5,
+      "lithium": 1,
+      "aerogel": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "vortex_torpedo",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "titanium": 1,
+      "magnetitet": 1
+    },
+    "quantity": 2
+  },
+  {
+    "id": "gas_torpedo",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "titanium": 1,
+      "crystalline_sulfur": 1
+    },
+    "quantity": 2
+  },
+  {
+    "id": "seatruck_afterburner_upgrade",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "wiring_kit": 1,
+      "power_cell": 1,
+      "lithium": 2,
+      "crystalline_sulfur": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_horsepower_upgrade",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "advanced_wiring_kit": 1,
+      "lubricant": 1,
+      "lithium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_depth_upgrade_mk1",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "plasteel_ingot": 1,
+      "enameled_glass": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_perimeter_defence_upgrade",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "computer_chip": 1,
+      "ruby": 2,
+      "power_cell": 1,
+      "polyaniline": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "snowfox_jump_module",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "titanium": 2,
+      "wiring_kit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "snowfox_ice_worm_attack_reduction_module",
+    "category": "vehicle_upgrades",
+    "materials": {
+      "titanium": 2,
+      "wiring_kit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "thermoblade",
+    "category": "modification_station",
+    "materials": {
+      "survival_knife": 1,
+      "battery": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "ultra_high_capacity_tank",
+    "category": "modification_station",
+    "materials": {
+      "high_capacity_o2_tank": 1,
+      "lithium": 4
+    },
+    "quantity": 1
+  },
+  {
+    "id": "swim_charge_fins",
+    "category": "modification_station",
+    "materials": {
+      "fins": 1,
+      "polyaniline": 1,
+      "wiring_kit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_depth_upgrade_mk2",
+    "category": "modification_station",
+    "materials": {
+      "ruby": 2,
+      "enameled_glass": 1,
+      "seatruck_depth_upgrade_mk1": 1,
+      "synthetic_fibers": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_depth_upgrade_mk3",
+    "category": "modification_station",
+    "materials": {
+      "seatruck_depth_upgrade_mk2": 1,
+      "nickel_ore": 3,
+      "kyanite": 2,
+      "plasteel_ingot": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "prawn_suit_depth_module_mk2",
+    "category": "modification_station",
+    "materials": {
+      "prawn_suit_depth_module_mk1": 1,
+      "kyanite": 1,
+      "nickel_ore": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "scanner_room_hub_chip",
+    "category": "scanner_room_upgrades",
+    "materials": {
+      "computer_chip": 1,
+      "magnetite": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "camera_drone",
+    "category": "scanner_room_upgrades",
+    "materials": {
+      "computer_chip": 1,
+      "battery": 1,
+      "glass": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "scanner_room_range_upgrade",
+    "category": "scanner_room_upgrades",
+    "materials": {
+      "copper_ore": 1,
+      "magnetite": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "scanner_room_speed_upgrade",
+    "category": "scanner_room_upgrades",
+    "materials": {
+      "silver_ore": 1,
+      "gold": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "foundation",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 2,
+      "lead": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "i_compartment",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "l_compartment",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "t_compartment",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 3
+    },
+    "quantity": 1
+  },
+  {
+    "id": "x_compartment",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 3
+    },
+    "quantity": 1
+  },
+  {
+    "id": "i_glass_compartment",
+    "category": "base_pieces",
+    "materials": {
+      "glass": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "l_glass_compartment",
+    "category": "base_pieces",
+    "materials": {
+      "glass": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "vertical_connector",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "multipurpose_room",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 6
+    },
+    "quantity": 1
+  },
+  {
+    "id": "scanner_room",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 5,
+      "copper_ore": 2,
+      "gold": 1,
+      "table_coral_sample": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "moonpool",
+    "category": "base_pieces",
+    "materials": {
+      "titanium_ingot": 2,
+      "lubricant": 1,
+      "lead": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "observatory",
+    "category": "base_pieces",
+    "materials": {
+      "enameled_glass": 2,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "controll_room",
+    "category": "base_pieces",
+    "materials": {
+      "titanium": 4,
+      "advanced_wiring_kit": 1,
+      "glass": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "large_room",
+    "category": "base_pieces",
+    "materials": {
+      "plasteel_ingot": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "multipurpose_room_glass_dome",
+    "category": "base_pieces",
+    "materials": {
+      "enameled_glass": 2,
+      "titanium": 2,
+      "lithium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "large_room_glass_dome",
+    "category": "base_pieces",
+    "materials": {
+      "enameled_glass": 4,
+      "titanium": 4,
+      "lithium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "hatch",
+    "category": "base_pieces",
+    "materials": {
+      "quartz": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "window",
+    "category": "base_pieces",
+    "materials": {
+      "glass": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "reinforcement",
+    "category": "base_pieces",
+    "materials": {
+      "lithium": 1,
+      "titanium": 3
+    },
+    "quantity": 1
+  },
+  {
+    "id": "seatruck_dock",
+    "category": "base_pieces",
+    "materials": {
+      "titanium_ingot": 1,
+      "advanced_wiring_kit": 1,
+      "glass": 4
+    },
+    "quantity": 1
+  },
+  {
+    "id": "solar_panel",
+    "category": "exterior_modules",
+    "materials": {
+      "quartz": 2,
+      "titanium": 2,
+      "copper_ore": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "thermal_plant",
+    "category": "exterior_modules",
+    "materials": {
+      "titanium": 5,
+      "magnetite": 2,
+      "aerogel": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "power_transmitter",
+    "category": "exterior_modules",
+    "materials": {
+      "gold": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "snowfox_howerpad",
+    "category": "exterior_modules",
+    "materials": {
+      "titanium": 2,
+      "wiring_kit": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "floodlight",
+    "category": "exterior_modules",
+    "materials": {
+      "glass": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "exterior_growbed",
+    "category": "exterior_modules",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "snowman",
+    "category": "exterior_modules",
+    "materials": {
+      "snowball": 3,
+      "rebreather": 1,
+      "standard_o2_tank": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "ladder",
+    "category": "interior_installations",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "water_filtration_suit",
+    "category": "interior_installations",
+    "materials": {
+      "titanium": 3,
+      "copper_wire": 1,
+      "aerogel": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "bulkhead",
+    "category": "interior_installations",
+    "materials": {
+      "titanium": 3,
+      "silicone_rubber": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "vehicle_upgrade_console",
+    "category": "interior_installations",
+    "materials": {
+      "titanium": 3,
+      "computer_chip": 1,
+      "copper_ore": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "bioreactor",
+    "category": "interior_installations",
+    "materials": {
+      "titanium": 3,
+      "wiring_kit": 1,
+      "lubricant": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "nuclear_reactor",
+    "category": "interior_installations",
+    "materials": {
+      "plasteel_ingot": 1,
+      "advanced_wiring_kit": 1,
+      "lead": 3
+    },
+    "quantity": 1
+  },
+  {
+    "id": "large_room_partition",
+    "category": "interior_installations",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "large_room_partition_door",
+    "category": "interior_installations",
+    "materials": {
+      "titanium": 1,
+      "quartz": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "ladder",
+    "category": "interior_installations",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "fabricator",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 2,
+      "copper_ore": 2,
+      "quartz": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "wall_locker",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "locker",
+    "category": "interior_modules",
+    "materials": {
+      "quartz": 1,
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "battery_charger",
+    "category": "interior_modules",
+    "materials": {
+      "wiring_kit": 1,
+      "copper_wire": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "power_cell",
+    "category": "interior_modules",
+    "materials": {
+      "advanced_wiring_kit": 1,
+      "lithium": 2,
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "aquarium",
+    "category": "interior_modules",
+    "materials": {
+      "glass": 2,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "modification_station",
+    "category": "interior_modules",
+    "materials": {
+      "computer_chip": 1,
+      "titanium": 1,
+      "diamond": 1,
+      "lead": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "jukebox",
+    "category": "interior_modules",
+    "materials": {
+      "quartz": 1,
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "jukebox_speaker",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 1,
+      "copper_ore": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "basic_plant_pot",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "composite_plant_pot",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "chic_plant_pot",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "indoor_growbed",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 4
+    },
+    "quantity": 1
+  },
+  {
+    "id": "plant_shelf",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "recyclotron",
+    "category": "interior_modules",
+    "materials": {
+      "ion_cube": 1,
+      "titanium_ingot": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "coffee_vending_machine",
+    "category": "interior_modules",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "bench",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "basic_double_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 2,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "quilted_double_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 2,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "single_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "sams_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "zetas_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "danielles_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "emmanuels_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 2,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "freds_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "parvans_bed",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "fiber_mesh": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "desk",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "executive_desk",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "swivel_chair",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "office_chair",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "command_chair",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "sign",
+    "category": "miscellaneous",
+    "materials": {
+      "copper_wire": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "bar_table",
+    "category": "miscellaneous",
+    "materials": {
+      "glass": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "trashcan",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "vending_machine",
+    "category": "miscellaneous",
+    "materials": {
+      "glass": 1,
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "counter",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "fridge",
+    "category": "miscellaneous",
+    "materials": {
+      "glass": 1,
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "shower",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "pipe": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "sink",
+    "category": "miscellaneous",
+    "materials": {
+      "pipe": 1,
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "small_stove",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "copper_wire": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "toilet",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "pipe": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "wall_planter",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "single_wall_shelf",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "wall_shelves",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "aromatherapy_lamp",
+    "category": "miscellaneous",
+    "materials": {
+      "battery": 1,
+      "young_cotton_anemone": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "executive_toy",
+    "category": "miscellaneous",
+    "materials": {
+      "titanium": 1,
+      "magnetite": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "architect_tissues",
+    "category": "architect_components",
+    "materials": {
+      "root_pustule": 2,
+      "synthetic_fibers": 1,
+      "gel_sack": 2
+    },
+    "quantity": 1
+  },
+  {
+    "id": "architect_skeleton",
+    "category": "architect_components",
+    "materials": {
+      "polyaniline": 1,
+      "diamond": 3,
+      "plasteel_ingot": 1
+    },
+    "quantity": 1
+  },
+  {
+    "id": "architect_organs",
+    "category": "architect_components",
+    "materials": {
+      "ion_cube": 1,
+      "ribbon_plant": 2,
+      "kyanite": 3
+    },
+    "quantity": 1
+  }
+]

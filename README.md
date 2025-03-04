@@ -1,5 +1,10 @@
 # About
 
-This is a sample algorithm of craft decomposer with Subnautica Below Zero crafts json.
+Sample tree [decomposer](src/main/kotlin/org/philexliveprojects/treedecomposer/Decomposer.kt) for safe
+iterating with data tree.
 
-Algorithm of the decomposer implemented with [SubnauticaCraftsAssetsRepositoryImpl](src/main/kotlin/SubnauticaCraftsAssetsRepositoryImpl.kt) class.
+For testing sample decomposer implementation go
+to [SubnauticaCraftDecomposerTest](src/test/kotlin/org/philexliveprojects/treedecomposer/SubnauticaCraftDecomposerTest.kt).
+
+Sample decomposer's code is
+in [SubnauticaCraftDecomposer](src/test/kotlin/org/philexliveprojects/treedecomposer/SubnauticaCraftDecomposer.kt).

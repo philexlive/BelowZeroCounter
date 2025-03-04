@@ -1,40 +1,65 @@
-package org.example
+package org.philexliveprojects.treedecomposer
 
-
+/**
+ * Decomposer class for safe interaction with references in a data tree.
+ *
+ * [K] for keys of data tree,
+ * [V] for external resources,
+ * [R] for result value.
+ * */
 abstract class Decomposer<K, in V, out R> {
+    /**
+     * Contains current history of keys.
+     * */
     protected val branch: Branch<K> by lazy { Branch() }
 
-    protected fun decompose(refs: Collection<K>?): Set<K> {
-        val temp = mutableSetOf<K>()
+    /**
+     * Decomposes current collection of top-level resources.
+     * */
+    protected fun decompose(resources: Collection<K>?): Set<K> {
+        val result = mutableSetOf<K>()
 
-        // Iterate craft references if not null
-        refs?.forEach { ref ->
-
-            // And there should be no copies in the branch, to prevent infinite recursion caused by "reversive" crafts.
-            //
-            // For example "titanium" crafts "titanium ingot", but "titanium ingot" crafts "titanium".
-            //
-            // If there is no copies, it's added to the branch as last
+        resources?.forEach { ref ->
             if (branch.push(ref)) {
                 val subRefs = onFetch(ref)
-                temp addAll decompose(subRefs)
+                result addAll decompose(subRefs)
             }
-
-            // Pops branch stack - we finished interaction with current resource.
         } ?: onUpdate(branch.check())
 
         onFinal(branch.pop())
 
-        return temp
+        return result
     }
 
+    /**
+     * Fetching keys of resources related with key.
+     * Returns [Collection] representing references to other resources in actual tree.
+     *
+     * [key] Key of current resource.
+     * */
     protected abstract fun onFetch(key: K): Collection<K>?
 
+    /**
+     * Called on every last resource in the tree, that breaks that tree.
+     *
+     * [key] Key of last resource in the tree
+     * */
     protected abstract fun onUpdate(key: K)
 
+    /**
+     * Called on final stage after resources iteration with onFetch and onUpdate, and on branch popping keys.
+     *
+     * [key] Is the resource's key popped from the [branch] stack.
+     * */
     protected open fun onFinal(key: K?) = Unit
 
-    abstract fun onGetResult(value: V): R
+    /**
+     * Getting user-generated [value] for convert and put into [decompose] for decomposition,
+     * then returns with more appropriate data type.
+     *
+     * Use [decompose] function for decomposition.
+     * */
+    abstract fun onResult(value: V): R
 
 
     /**
@@ -69,9 +94,6 @@ abstract class Decomposer<K, in V, out R> {
             return result
         }
 
-        /**
-         * Gets last key from the branch without popping
-         * */
         fun check(): T {
             return branch.last()
         }
