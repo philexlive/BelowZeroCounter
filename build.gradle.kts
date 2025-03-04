@@ -3,7 +3,7 @@ plugins {
     kotlin("plugin.serialization") version "2.1.10"
 }
 
-group = "org.example"
+group = "org.philexliveprojects.treedecomposer"
 version = "1.0.0"
 
 repositories {
